@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import Final from "./Calculator/Main.js";
+
 function App() {
-  return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
-    </div>
-  )
+  return <Final />;
 }
 
-export default App
+export default App;
